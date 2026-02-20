@@ -1,0 +1,30 @@
+{
+  "name": "crypto-tracker",
+  "version": "1.0.0",
+  "description": "Crypto tracking and transfer tool using MetaMask private key and Moralis API",
+  "main": "src/index.js",
+  "bin": {
+    "crypto-tracker": "src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test src/__tests__/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ytggfdhgfrt/Main.git"
+  },
+  "keywords": ["crypto", "ethereum", "moralis", "metamask", "wallet"],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Ytggfdhgfrt/Main/issues"
+  },
+  "homepage": "https://github.com/Ytggfdhgfrt/Main#readme",
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "ethers": "^6.16.0",
+    "moralis": "^2.27.2"
+  }
+}
